@@ -1,0 +1,33 @@
+/* Additional custom styles for the portfolio */
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .mobile-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .mobile-text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
